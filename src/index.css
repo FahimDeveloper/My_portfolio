@@ -1,3 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    position: relative;
+}
+
+.bg-effect {
+    background-color: #fa5b0f;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+}
+
+.my_img {
+    background-image: url('/src/assets/fahim2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: calc(100vh - 80px);
+    top: 40px;
+    background-position: top;
+    border-radius: 30px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+}
+
+.bg-dark {
+    /* background-image: linear-gradient(#231a19, #231a19); */
+    background-color: #1b1716;
+}
+
+.menuStyle {
+    @apply bg-slate-400 w-10 h-10 p-2 opacity-80 rounded-full
+}
+
+.active {
+    @apply bg-primary text-2xl opacity-90 rounded-full flex text-zinc-50 items-center px-2
+}
+
+.active .menuStyle {
+    @apply bg-primary
+}
+
+.navStyle:hover {
+    @apply bg-primary flex text-zinc-50 items-center opacity-90 px-2 transition-all ease-in-out rounded-full
+}
+
+.navStyle:hover .menuStyle {
+    @apply bg-primary
+}
+
+.menu {
+    display: none;
+    font-size: 16px;
+}
+
+.active .menu {
+    display: block;
+}
+
+.navStyle:hover .menu {
+    display: block;
+}
+
+.actionBtn {
+    @apply flex items-center text-zinc-100 gap-2 px-5 py-2 rounded-full bg-primary uppercase font-medium
+}
+
+.outLineBtn {
+    @apply flex items-center gap-2 px-5 py-2 rounded-full border border-primary text-primary uppercase font-medium
+}
+
+.outLineBtn:hover {
+    @apply bg-primary text-zinc-100 transition-all ease-in-out
+}

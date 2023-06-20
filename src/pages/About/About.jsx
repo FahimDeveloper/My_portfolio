@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <div>
-
+        <div className="bg-red-500 h-screen">
+            about
         </div>
     );
 };

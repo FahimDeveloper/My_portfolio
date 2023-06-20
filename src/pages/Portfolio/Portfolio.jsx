@@ -2,8 +2,8 @@
 
 const Portfolio = () => {
     return (
-        <div>
-
+        <div className="bg-orange-500 h-screen">
+            portfolio
         </div>
     );
 };
