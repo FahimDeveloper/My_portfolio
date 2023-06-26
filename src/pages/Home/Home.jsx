@@ -27,6 +27,8 @@ const Home = () => {
                             sequence={[
                                 'Tuohidul Islam Fahim',
                                 1000,
+                                'Fontend developer',
+                                1000,
                                 'Junior Web Developer',
                                 1000,
                                 'Work With MERN Stack',
