@@ -7,7 +7,7 @@ import useTheme from "../../hooks/useTheme";
 const Navbar = () => {
     const { isDarkMode } = useTheme();
     return (
-        <div className="absolute left-[calc(50%-155px)] bottom-5 z-50">
+        <div className="fixed left-[calc(50%-155px)] bottom-5 z-50">
             <nav className={`flex gap-5 border border-primary rounded-full p-2 ${isDarkMode ? 'text-zinc-50' : 'text-neutral'}`}>
                 <NavLink className={({ isActive }) => isActive ? 'active' : 'navStyle'} to="/"><AiOutlineHome className="menuStyle" /><span className="menu">Home</span></NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'active' : 'navStyle'} to="/about"><AiOutlineUser className="menuStyle" /><span className="menu">About me</span></NavLink>

@@ -67,11 +67,11 @@ body {
 }
 
 .actionBtn {
-    @apply flex items-center text-zinc-100 gap-2 px-5 py-2 rounded-full bg-primary uppercase font-medium
+    @apply flex items-center text-zinc-100 gap-2 px-5 py-2 rounded-full bg-primary capitalize font-medium
 }
 
 .outLineBtn {
-    @apply flex items-center gap-2 px-5 py-2 rounded-full border border-primary text-primary uppercase font-medium
+    @apply flex items-center gap-2 px-5 py-2 rounded-full border border-primary text-primary capitalize font-medium
 }
 
 .outLineBtn:hover {
@@ -108,4 +108,20 @@ body {
     z-index: -1;
     border-radius: 5px;
     border: 6px solid #fa5b0f;
+}
+
+@media all and (max-width:640px) {
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .subTitle::after {
+        width: 0px;
+    }
+
+    .subTitle::before {
+        width: 0px;
+    }
 }
