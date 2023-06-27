@@ -6,7 +6,7 @@ import vite from "/vite.svg"
 const ToolsSkill = () => {
     return (
         <div className="space-y-5">
-            <h4 className="text-xl font-medium">Using Tools</h4>
+            <h4 className="sm:text-2xl text-xl font-medium">Using Tools</h4>
             <Marquee speed={80} pauseOnHover={true}>
                 <div className="sm:w-32 w-28 border flex flex-col justify-center items-center sm:h-32 gap-2 h-28 rounded-xl">
                     <img src={vite} className="sm:w-[70px] w-14 sm:h-[70px] h-14" alt="vite img" />

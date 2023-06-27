@@ -110,6 +110,29 @@ body {
     border: 6px solid #fa5b0f;
 }
 
+.general ul::before,
+.programming ul::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 3px;
+    background-color: #fa5b0f;
+    left: -25px;
+}
+
+.general ul li span::before,
+.programming ul li span::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fa5b0f;
+    border-radius: 50%;
+    background-color: #fff;
+    left: -32px;
+}
+
 @media all and (max-width:640px) {
 
     .container {

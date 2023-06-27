@@ -4,7 +4,7 @@ import { skillsData } from "./skillData";
 const Skills = () => {
     return (
         <div className="space-y-5">
-            <h4 className="text-xl font-medium">Expertise, Comportable & Familiar Skill</h4>
+            <h4 className="sm:text-2xl text-xl font-medium">Expertise, Comportable & Familiar Skill</h4>
             <Marquee speed={80} pauseOnHover={true}>
                 {
                     skillsData.map(skill => {

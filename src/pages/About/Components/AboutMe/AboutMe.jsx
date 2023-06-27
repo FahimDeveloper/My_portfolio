@@ -4,13 +4,13 @@ import Information from './Information';
 
 const AboutMe = () => {
     return (
-        <div className='pt-10 pb-16 grid lg:grid-cols-2 xl:gap-0 gap-10 items-center'>
-            <div className='my-pic relative z-10 xl:w-3/4 lg:w-full w-3/4 mx-auto'>
+        <div className='pt-10 sm:pb-16 pb-10 grid lg:grid-cols-2 xl:gap-0 gap-10 items-center'>
+            <div data-aos="fade-right" data-aos-duration="800" className='my-pic relative z-10 xl:w-3/4 lg:w-full w-3/4 mx-auto'>
                 <img src={myPhoto} className='w-full h-full rounded' alt="my picture" />
             </div>
-            <div className='space-y-6'>
+            <div data-aos="fade-left" data-aos-duration="800" className='sm:space-y-6 space-y-4'>
                 <div className='space-y-2 lg:text-start text-center'>
-                    <h2 className='text-4xl'>I am Tuohidul Islam Fahim</h2>
+                    <h2 className='sm:text-4xl text-3xl font-medium'>I am Tuohidul Islam Fahim</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat quis quam iure, pariatur fuga suscipit eligendi quos numquam distinctio nisi sint alias, ea doloribus veniam dolorum consequatur laudantium hic.</p>
                 </div>
                 <div className='space-y-2 lg:text-start text-center'>
