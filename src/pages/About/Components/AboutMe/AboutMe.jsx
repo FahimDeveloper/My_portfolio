@@ -28,9 +28,9 @@ const AboutMe = () => {
                     <button className='outLineBtn'><BsDownload /> download resume</button>
                     <button className='outLineBtn'><BsDownload /> download CV</button>
                 </div> */}
-                <div className="space-y-3">
+                <div className="space-y-3 text-center">
                     <h3 className="font-medium text-2xl">Hey i am availale in</h3>
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 sm:justify-start justify-center">
                         <a href="#" title="Facebook">
                             <FaFacebook className="text-3xl text-blue-500 bg-white rounded-full" />
                         </a>

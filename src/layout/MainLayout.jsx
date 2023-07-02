@@ -13,6 +13,7 @@ const MainLayout = () => {
     return (
         <>
             <AnimatedCursor
+                className="sm:block hidden"
                 innerSize={8}
                 outerSize={35}
                 innerScale={1}

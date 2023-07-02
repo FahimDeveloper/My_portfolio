@@ -13,7 +13,7 @@ const About = () => {
             <div className="lg:w-4/5 sm:w-10/12 w-11/12 mx-auto">
                 <ToggleTheme />
                 <Title title={`about`} mainTitle={`me`} subTitle={`I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.`} />
-                <div className="">
+                <div>
                     <AboutMe />
                     <hr className="border" />
                     <MySkill />
