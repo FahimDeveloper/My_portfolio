@@ -1,5 +1,5 @@
 // import { BsDownload } from "react-icons/bs";
-import { FaFacebookSquare, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
 import myPhoto from "../../../../assets/fahim.jpg"
 import Information from './Information';
 
@@ -31,17 +31,20 @@ const AboutMe = () => {
                 <div className="space-y-3">
                     <h3 className="font-medium text-2xl">Hey i am availale in</h3>
                     <div className="flex gap-5">
-                        <a href="#">
-                            <FaFacebookSquare className="text-3xl text-blue-500" />
+                        <a href="#" title="Facebook">
+                            <FaFacebook className="text-3xl text-blue-500 bg-white rounded-full" />
                         </a>
-                        <a href="#">
-                            <FaTwitter className="text-3xl text-sky-500" />
+                        <a href="#" title="Twitter">
+                            <FaTwitter className='text-3xl text-sky-500' />
                         </a>
-                        <a href="#">
-                            <FaLinkedin className="text-3xl text-[#0A66C2]" />
+                        <a href="#" title="Linkedin">
+                            <FaLinkedin className="text-3xl text-[#0A66C2] bg-white rounded" />
                         </a>
-                        <a href="#">
-                            <FaGithub className="text-3xl text-stone-950" />
+                        <a href="#" title="Github">
+                            <FaGithub className="text-3xl text-stone-950 bg-white rounded-full" />
+                        </a>
+                        <a href="#" title="Discord">
+                            <FaDiscord className="text-3xl text-white bg-indigo-500 rounded-full p-1" />
                         </a>
                     </div>
                 </div>
