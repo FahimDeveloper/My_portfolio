@@ -1,12 +1,12 @@
 import { createContext, useState, useEffect } from "react";
 
 export const ThemeContext = createContext({
-    isDarkMode: true,
+    isDarkMode: false,
     toggleTheme: () => { },
 });
 
 const ThemeProviders = ({ children }) => {
-    const [isDarkMode, setIsDarkMode] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");

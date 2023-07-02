@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import { TypeAnimation } from "react-type-animation";
 import ToggleTheme from "../../components/ToggleTheme";
 import useTheme from "../../hooks/useTheme";
 import myImg from '../../assets/fahim.jpg'
-import { AiOutlineUser } from "react-icons/ai";
-import { BsBagCheck } from "react-icons/bs";
+import { BsBagCheck, BsDownload } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import resume from "../../assets/Resume/MyResume.pdf";
 
 
 const Home = () => {
@@ -39,10 +40,10 @@ const Home = () => {
                             className="xl:text-5xl sm:text-4xl text-3xl font-bold text-primary"
                             repeat={Infinity}
                         />
-                        <p className="md:text-lg text-base mt-1">I am a dynamic MERN stack wizard from Bangladesh, weaving cutting-edge web experiences using MongoDB, Express.js, React, and Node.js, while constantly pushing boundaries and embracing creativity.</p>
+                        <p className="md:text-lg text-base mt-1">Transforming ideas into stunning web experiences. Skilled in MERN stack development, I combine the power of React.js with MongoDB, Express.js, and Node.js to build robust and scalable applications. Let's bring your vision to life.</p>
                         <div className="flex justify-center items-center gap-5 mt-5">
-                            <Link to="/about"><button className="actionBtn"><AiOutlineUser className="text-xl" /> More about me</button></Link>
-                            <Link to="/portfolio"><button className="outLineBtn"><BsBagCheck className="text-xl" /> Portfolio</button></Link>
+                            <a href={resume} download className="actionBtn"><BsDownload className="text-xl" /> Donwload Resume</a>
+                            <Link to="/portfolio" className="sm:block hidden"><button className="outLineBtn"><BsBagCheck className="text-xl" /> Portfolio</button></Link>
                         </div>
                     </div>
                 </div>

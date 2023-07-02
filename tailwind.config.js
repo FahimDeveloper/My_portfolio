@@ -38,10 +38,10 @@ export default {
         "mongodb": "#4DB33D",
         "vscode": "#24ABF2",
         "git": "#FA4F28",
-        "github": "#E6EDF3",
+        "github": "#000000",
         "firebase": "#FFA712",
         "netlify": "#32E6E2",
-        "vercel": "#e5e7eb",
+        "vercel": "#00000",
         "reactDev": "#61DBFB",
       }
     }

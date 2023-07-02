@@ -71,7 +71,7 @@ body {
 }
 
 .outLineBtn {
-    @apply flex items-center gap-2 px-5 py-2 rounded-full border border-primary text-primary capitalize font-medium
+    @apply flex items-center gap-2 px-5 py-[6px] rounded-full border border-primary text-primary capitalize font-medium
 }
 
 .outLineBtn:hover {

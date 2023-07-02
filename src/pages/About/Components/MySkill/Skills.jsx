@@ -9,7 +9,7 @@ const Skills = () => {
                 {
                     skillsData.map(skill => {
                         return (
-                            <div key={skill.label} className="sm:w-32 w-28 border flex flex-col justify-center items-center sm:h-32 h-28 rounded-xl">
+                            <div key={skill.label} className="sm:w-32 w-28 mx-2 bg-white text-black border flex flex-col justify-center items-center sm:h-32 h-28 rounded-xl">
                                 <skill.Icon className={`sm:text-7xl text-6xl text-${skill.color} mx-auto`} />
                                 <p className="font-medium">{skill.label}</p>
                             </div>

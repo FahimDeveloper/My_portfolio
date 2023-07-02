@@ -26,12 +26,12 @@ const Education = () => {
                         <li className="space-y-1">
                             <span className="flex gap-2 items-center text-sm"><FaCalendarAlt /> 2022-2023</span>
                             <h4 className="sm:text-xl text-lg font-medium">Mern Stack Development</h4>
-                            <p>I have completed my higher secondary certificate from Govt. Adamjee Nagar MW College, Narayangonj, Bangladesh in 2022</p>
+                            <p>I have completed mern stack course from Programming Hero. Learned more from freeCodeCanp and other online platforms</p>
                         </li>
                         <li className="space-y-1">
                             <span className="flex gap-2 items-center text-sm"><FaCalendarAlt /> 2021-2022</span>
                             <h4 className="sm:text-xl text-lg font-medium">Frontend Development</h4>
-                            <p>I have completed my higher secondary certificate from Govt. Adamjee Nagar MW College, Narayangonj, Bangladesh in 2022</p>
+                            <p>Learned frontend development from SoftTech IT. From here my development journey started</p>
                         </li>
                     </ul>
                 </div>
