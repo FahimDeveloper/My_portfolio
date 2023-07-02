@@ -22,14 +22,10 @@ const AboutMe = () => {
                     <Information title={`language skill`} info={`Comportable with Hindi and English`} />
                     <Information title={`address`} info={`Dhaka, Bangladesh`} />
                     <Information title={`freelance`} info={`Available`} />
-                    <div className='flex flex-wrap lg:justify-start justify-center gap-x-2 text-lg tracking-wide'>Available in WhatsApp, Teligram and Skype<a href='tel:+8801613507625'>(+8801613507625)</a></div>
                 </div>
-                {/* <div className='flex items-center lg:justify-start justify-center gap-5'>
-                    <button className='outLineBtn'><BsDownload /> download resume</button>
-                    <button className='outLineBtn'><BsDownload /> download CV</button>
-                </div> */}
-                <div className="space-y-3 text-center">
-                    <h3 className="font-medium text-2xl">Hey i am availale in</h3>
+                <div className="space-y-2">
+                    <h3 className="font-medium text-2xl sm:text-start text-center">Hey i am available in</h3>
+                    <div className='flex flex-wrap lg:justify-start justify-center gap-x-2 text-lg tracking-wide'>WhatsApp, Teligram and Skype<a href='tel:+8801613507625'>(+8801613507625)</a></div>
                     <div className="flex gap-5 sm:justify-start justify-center">
                         <a href="#" title="Facebook">
                             <FaFacebook className="text-3xl text-blue-500 bg-white rounded-full" />
