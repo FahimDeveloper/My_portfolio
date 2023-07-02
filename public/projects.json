@@ -1,0 +1,26 @@
+[
+    {
+        "project_name": "World Talk",
+        "project_image": "https://i.ibb.co/PwwLh6k/12.png",
+        "live_link": "https://learnlanguage-45bb1.web.app/",
+        "client_link": "https://github.com/FahimDeveloper/LearnLanguage-client",
+        "server_link": "https://github.com/FahimDeveloper/LearnLanguage-server",
+        "project_description": "The Project is an educational platform. The project subtitle is Learn Languages. Anyone can buy a course from this website. The web has authentication system. Have a perticular dashboard for admin, student, and instructor."
+    },
+    {
+        "project_name": "Marvel Toys",
+        "project_image": "https://i.ibb.co/pPBq52Y/11.png",
+        "live_link": "https://marvel-toys-25f25.web.app/",
+        "client_link": "https://github.com/FahimDeveloper/MarvelToy-client",
+        "server_link": "https://github.com/FahimDeveloper/MarvelToy-server",
+        "project_description": "The Project is like an online toy shop. Anyone can upload a toy for sale purposes. The web has an authentication system. Users can upload toys when they are authentic people. Sellers can publish, update, and delete their products."
+    },
+    {
+        "project_name": "Cooks Cuisine",
+        "project_image": "https://i.ibb.co/bXYPJBL/10.png",
+        "live_link": "https://cookscuisine-71936.web.app/",
+        "client_link": "https://github.com/FahimDeveloper/Cooks_Cuisine_Client",
+        "server_link": "https://github.com/FahimDeveloper/Cooks_Cuisine_Server",
+        "project_description": "The Project is like an online toy shop. Anyone can upload a toy for sale purposes. The web has an authentication system. Users can upload toys when they are authentic people. Sellers can publish, update, and delete their products."
+    }
+]

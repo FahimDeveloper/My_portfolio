@@ -23,7 +23,7 @@ const Home = () => {
                     <div data-aos='fade-left' className="xl:col-span-7 lg:col-span-6 text-center">
                         <p className="text-xl">Hello!</p>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <h5 className="text-3xl">I'm</h5>
+                        <h5 className="sm:text-3xl text-2xl">I'm</h5>
                         <TypeAnimation
                             sequence={[
                                 'Tuohidul Islam Fahim',
@@ -43,7 +43,7 @@ const Home = () => {
                             repeat={Infinity}
                         />
                         <p className="md:text-lg text-base mt-1">Transforming ideas into stunning web experiences. Skilled in MERN stack development, I combine the power of React.js with MongoDB, Express.js, and Node.js to build robust and scalable applications. Let's bring your vision to life.</p>
-                        <div className="flex justify-center items-center gap-5 mt-5">
+                        <div className="flex justify-center items-center gap-5 sm:mt-5 mt-3">
                             <a href={resume} download className="actionBtn"><BsDownload className="text-xl" /> Donwload Resume</a>
                             <Link to="/portfolio" className="sm:block hidden"><button className="outLineBtn"><BsBagCheck className="text-xl" /> Portfolio</button></Link>
                         </div>

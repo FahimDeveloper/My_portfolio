@@ -133,6 +133,16 @@ body {
     left: -32px;
 }
 
+.porject_image {
+    background-position: top;
+    transition: ease-in-out 5s;
+    background-size: cover;
+}
+
+.project:hover .porject_image {
+    background-position: bottom;
+}
+
 @media all and (max-width:640px) {
 
     .container {
