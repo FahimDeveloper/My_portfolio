@@ -19,7 +19,7 @@ const Portfolio = () => {
             <div className="lg:w-4/5 sm:w-10/12 w-11/12 mx-auto space-y-10">
                 <ToggleTheme />
                 <Title title={`my`} mainTitle={`portfolio`} subTitle={`I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.`} />
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-4">
                     {
                         projectsData.map((project, index) => <Project key={index} project={project} />)
                     }

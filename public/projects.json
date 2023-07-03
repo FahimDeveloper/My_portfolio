@@ -21,6 +21,6 @@
         "live_link": "https://cookscuisine-71936.web.app/",
         "client_link": "https://github.com/FahimDeveloper/Cooks_Cuisine_Client",
         "server_link": "https://github.com/FahimDeveloper/Cooks_Cuisine_Server",
-        "project_description": "The Project is like an online toy shop. Anyone can upload a toy for sale purposes. The web has an authentication system. Users can upload toys when they are authentic people. Sellers can publish, update, and delete their products."
+        "project_description": "The Project is like an restuarent. The web has an authentication system. The web has an restuarent chefs details. If user have login then user see chef details. The web has google login, github login, and menual login system"
     }
 ]
