@@ -27,21 +27,21 @@ const AboutMe = () => {
                     <h3 className="font-medium text-2xl sm:text-start text-center">Hey i am available in</h3>
                     <div className='flex flex-wrap lg:justify-start justify-center gap-x-2 text-lg tracking-wide'>WhatsApp, Teligram and Skype<a href='tel:+8801613507625'>(+8801613507625)</a></div>
                     <div className="flex gap-5 sm:justify-start justify-center">
-                        <a href="#" title="Facebook">
+                        <a href="https://www.facebook.com/fahim.chowdhury.509994" title="Facebook">
                             <FaFacebook className="text-3xl text-blue-500 bg-white rounded-full" />
                         </a>
-                        <a href="#" title="Twitter">
+                        <a href="https://twitter.com/fahimthedev" title="Twitter">
                             <FaTwitter className='text-3xl text-sky-500' />
                         </a>
-                        <a href="#" title="Linkedin">
+                        <a href="https://www.linkedin.com/in/fahimthedev/" title="Linkedin">
                             <FaLinkedin className="text-3xl text-[#0A66C2] bg-white rounded" />
                         </a>
-                        <a href="#" title="Github">
+                        <a href="https://github.com/FahimDeveloper" title="Github">
                             <FaGithub className="text-3xl text-stone-950 bg-white rounded-full" />
                         </a>
-                        <a href="#" title="Discord">
+                        {/* <a href="#" title="Discord">
                             <FaDiscord className="text-3xl text-white bg-indigo-500 rounded-full p-1" />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
