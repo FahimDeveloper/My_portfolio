@@ -4,23 +4,29 @@ import useTheme from "../../hooks/useTheme";
 import ToggleTheme from "../../components/ToggleTheme";
 import CreatableSelect from 'react-select/creatable';
 import { useState } from "react";
+import axios from "axios";
 
 
 const AddProject = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const [selectedOption, setSelectedOption] = useState(null);
-    const onSubmit = (data) => {
-        data.technology = selectedOption
+    const onSubmit = (projectData) => {
+        projectData.technology = selectedOption
+        projectData.date = new Date();
         const uploadkey = import.meta.env.VITE_IMAGE_UPLOAD_KEY;
         const formData = new FormData();
-        formData.append("image", data.project_image[0]);
+        formData.append("image", projectData.project_image[0]);
         fetch(`https://api.imgbb.com/1/upload?key=${uploadkey}`, {
             method: 'POST',
             body: formData
         }).then(res => res.json()).then(imgResponse => {
-            data.project_image = imgResponse.data.display_url
+            projectData.project_image = imgResponse.data.display_url;
+            axios.post("http://localhost:5000/addProject", projectData).then(data => {
+                if (data.data.insertedId) {
+                    reset();
+                }
+            })
         });
-        console.log(data)
     };
     const { isDarkMode } = useTheme();
     const options = [
