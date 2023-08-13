@@ -11,7 +11,7 @@ const Education = () => {
                         <li className="space-y-1">
                             <span className="flex gap-2 items-center text-sm"><FaCalendarAlt /> 2020-2022</span>
                             <h4 className="sm:text-xl text-lg font-medium">Higher Secondary School Certificate</h4>
-                            <p>I have completed my higher secondary certificate from Govt. Adamjee Nagar MW College, Narayangonj, Bangladesh in 2022</p>
+                            <p>I have completed my higher secondary school certificate from Govt. Adamjee Nagar MW College, Narayangonj, Bangladesh in 2022</p>
                         </li>
                         <li className="space-y-1">
                             <span className="flex gap-2 items-center text-sm"><FaCalendarAlt /> 2018-2020</span>

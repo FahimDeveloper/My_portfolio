@@ -47,9 +47,9 @@ const SkillProgress = () => {
                 <div className="space-y-2">
                     <div className="flex justify-between font-medium sm:text-lg">
                         <p className="flex gap-2">MongoDB <BiLogoMongodb className="text-3xl text-[#4DB33D]" /></p>
-                        <p>75%</p>
+                        <p>70%</p>
                     </div>
-                    <progress className="progress progress-primary bg-gray-50 w-full" value={75} max="100"></progress>
+                    <progress className="progress progress-primary bg-gray-50 w-full" value={70} max="100"></progress>
                 </div>
             </div>
         </div>
