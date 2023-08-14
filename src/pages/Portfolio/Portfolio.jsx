@@ -16,7 +16,8 @@ const Portfolio = () => {
         axios("http://localhost:5000/allProjects").then(data => {
             setProjectsData(data.data)
         })
-    }, [])
+    }, []);
+    console.log(projectsData)
     const dynamicWeb = projectsData.filter(project => project.web_format === "Dynamic")
     const staticWeb = projectsData.filter(project => project.web_format === "Static")
     return (
@@ -31,21 +32,21 @@ const Portfolio = () => {
                         <Tab>Static Web</Tab>
                     </TabList>
                     <TabPanel>
-                        <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
+                        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
                             {
                                 projectsData.map((project, index) => <Project key={index} project={project} />)
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
+                        <div className="grid 2xl:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
                             {
                                 dynamicWeb.map((project, index) => <Project key={index} project={project} />)
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
+                        <div className="grid 2xl:grid-cols-3 md:grid-cols-2 gap-4 pt-5">
                             {
                                 staticWeb.map((project, index) => <Project key={index} project={project} />)
                             }
