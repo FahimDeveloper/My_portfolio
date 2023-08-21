@@ -6,11 +6,15 @@ import {
 } from "react-router-dom";
 import { router } from './routes/Routes';
 import ThemeProviders from './Providers/ThemeProvider';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
+const queryClient = new QueryClient()
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ThemeProviders>
-      <RouterProvider router={router} />
-    </ThemeProviders>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProviders>
+        <RouterProvider router={router} />
+      </ThemeProviders>
+    </QueryClientProvider>
   </React.StrictMode>,
 )

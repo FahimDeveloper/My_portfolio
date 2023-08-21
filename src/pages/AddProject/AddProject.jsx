@@ -21,7 +21,7 @@ const AddProject = () => {
             body: formData
         }).then(res => res.json()).then(imgResponse => {
             projectData.project_image = imgResponse.data.display_url;
-            axios.post("http://localhost:5000/addProject", projectData).then(data => {
+            axios.post("https://fahimthedev-server.vercel.app/addProject", projectData).then(data => {
                 if (data.data.insertedId) {
                     reset();
                 }
